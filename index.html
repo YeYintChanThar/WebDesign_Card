@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .card{
+            width:400px;
+            height: auto;
+            border: 1px solid blue ;
+            background-color: rgb(90, 90, 180);
+        }
+        .card-body{
+            text-align: center; 
+            padding: 10px;
+            color: #FFF;
+        }
+        .card img:hover{
+            cursor: pointer
+            ;
+            transform:scale(1.03);
+        }
+        button{
+            display: block;
+            margin:auto;
+            width: 150px;
+            height: 50px;
+            outline-style: none;
+        }
+        button:hover{
+            cursor:pointer;
+            background-color: blue;
+            color:#FFF;
+        }
+        .card-1,.card-2,.card-3{
+            margin:40px;
+            display: inline-block;
+        }
+        .card-2 .card-body{
+            background-color: darkslategray;
+            transition: all 0.5s;
+        }
+        .card-2 .card-body:hover{
+            background-color: rgb(31, 16, 141);
+        }
+        .card-3 .card-body{
+            background-color:skyblue;
+            transition: all 0.3s;
+        }
+        .card-3 .card-body:hover{
+            background-color:rgb(56, 15, 143);
+        }
+        .card-img{
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+    <div class="card card-1">
+        <div class="card-img">
+        <img src="https://picsum.photos/id/1015/400/200" alt="">
+        </div>
+        <div class="card-body">
+            <h1>The River</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi consequatur consequuntur aspernatur nam provident illum ab, sunt tempore at officiis vero veritatis quaerat quia omnis ea nulla obcaecati nihil? Consequatur cumque aliquam voluptatum aperiam amet magnam impedit aut! Rerum recusandae tenetur quo. Facilis quod hic magnam porro facere architecto a?</p>
+            <button>Read More</button>
+        </div>
+    </div>
+    <div class="card card-2">
+        <div class="card-img">
+        <img src="https://picsum.photos/id/1004/400/200" alt="">
+        </div>
+        <div class="card-body">
+            <h1>Scary Night</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi consequatur consequuntur aspernatur nam provident illum ab, sunt tempore at officiis vero veritatis quaerat quia omnis ea nulla obcaecati nihil? Consequatur cumque aliquam voluptatum aperiam amet magnam impedit aut! Rerum recusandae tenetur quo. Facilis quod hic magnam porro facere architecto a?</p>
+            <button>Read More</button>
+        </div>
+    </div>
+    <div class="card card-3">
+        <div class="card-img">
+        <img src="https://picsum.photos/id/1002/400/200" alt="">
+        </div>
+        <div class="card-body">
+            <h1>Blue Ocean</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi consequatur consequuntur aspernatur nam provident illum ab, sunt tempore at officiis vero veritatis quaerat quia omnis ea nulla obcaecati nihil? Consequatur cumque aliquam voluptatum aperiam amet magnam impedit aut! Rerum recusandae tenetur quo. Facilis quod hic magnam porro facere architecto a?</p>
+            <button>Read More</button>
+        </div>
+    </div>
+</body>
+</html>
